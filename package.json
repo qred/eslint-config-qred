@@ -1,0 +1,28 @@
+{
+  "name": "@qred/eslint-config-qred",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qred/eslint-config-qred.git"
+  },
+  "author": "qred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qred/eslint-config-qred/issues"
+  },
+  "homepage": "https://github.com/qred/eslint-config-qred#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.15.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
