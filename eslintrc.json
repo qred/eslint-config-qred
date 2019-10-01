@@ -10,6 +10,7 @@
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -21,5 +22,22 @@
     "react"
   ],
   "rules": {
+    "semi": [
+      2,
+      "never",
+      {
+        "beforeStatementContinuationChars": "always"
+      }
+    ],
+    "arrow-parens": [2, "as-needed"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          ".storybook/**",
+          "**/*.stories.jsx" 
+        ]
+      }
+    ]
   }
 }
